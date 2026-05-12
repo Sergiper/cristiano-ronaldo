@@ -1,38 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Estadisticas de Cristiano Ronaldo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estadísticas destacadas de Cristiano Ronaldo con tarjetas, tablas y galería visual.">
+    <title>Estadísticas de Cristiano Ronaldo | Datos destacados</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="logo" href="index.html" aria-label="Inicio Cristiano Ronaldo">
+                <span class="logo-mark">CR7</span>
+                <span>Cristiano Ronaldo</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="infancia.html">Biografía</a></li>
+                <li><a class="active" href="estadisticas.html">Estadísticas</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<body align="center" bgcolor="lightblue">
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Datos 2026</p>
+                    <h1>Estadísticas de una carrera irrepetible.</h1>
+                    <p class="lead">Una presentación visual para consultar sus cifras generales, goles por equipo y momentos representativos.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#goles">Ver goles por equipo</a>
+                        <a class="button button-secondary" href="infancia.html">Leer biografía</a>
+                    </div>
+                </div>
+                <figure class="feature-image">
+                    <img src="imagenes/cr7copa.jpg" alt="Cristiano Ronaldo sosteniendo un trofeo">
+                    <figcaption class="image-caption">Impacto goleador y mentalidad de campeón.</figcaption>
+                </figure>
+            </div>
+        </section>
 
-<h1>Estadísticas Cristiano Ronaldo (2026)</h1>
+        <section class="section" aria-labelledby="resumen-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Resumen</p>
+                        <h2 id="resumen-title">Estadísticas generales</h2>
+                    </div>
+                    <p>Cifras principales organizadas en tarjetas para mejorar la lectura y reforzar el aspecto profesional del sitio.</p>
+                </div>
+                <div class="stats-grid">
+                    <article class="stat-card">
+                        <span class="stat-number">965</span>
+                        <h3>Goles totales</h3>
+                        <p>Registro global indicado en la versión original del proyecto.</p>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-number">1.312</span>
+                        <h3>Partidos jugados</h3>
+                        <p>Participaciones acumuladas a lo largo de su carrera profesional.</p>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-number">0,74</span>
+                        <h3>Promedio goleador</h3>
+                        <p>Goles por partido según los datos incluidos en la web.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<h2>Estadísticas Generales</h2>
+        <section id="goles" class="section" aria-labelledby="goles-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Distribución</p>
+                        <h2 id="goles-title">Goles por equipo</h2>
+                    </div>
+                    <p>Tabla limpia y responsive con los equipos principales de su trayectoria.</p>
+                </div>
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Equipo</th>
+                                <th>Goles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Real Madrid</td>
+                                <td>450</td>
+                            </tr>
+                            <tr>
+                                <td>Manchester United</td>
+                                <td>145</td>
+                            </tr>
+                            <tr>
+                                <td>Juventus</td>
+                                <td>101</td>
+                            </tr>
+                            <tr>
+                                <td>Al-Nassr</td>
+                                <td>120</td>
+                            </tr>
+                            <tr>
+                                <td>Selección de Portugal</td>
+                                <td>143</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-<ul style="display:inline-block; text-align:left;">
-    <li>Goles totales: 965</li>
-    <li>Partidos jugados: 1.312</li>
-    <li>Promedio goleador: 0,74 goles por partido</li>
-</ul>
+        <section class="section" aria-labelledby="galeria-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Galería</p>
+                        <h2 id="galeria-title">Momentos destacados</h2>
+                    </div>
+                    <p>Imágenes del proyecto integradas en una composición visual coherente con el nuevo diseño.</p>
+                </div>
+                <div class="gallery-grid">
+                    <img src="imagenes/cr7copa.jpg" alt="Cristiano Ronaldo celebrando con un trofeo">
+                    <img src="imagenes/madrid.jpg" alt="Cristiano Ronaldo en su etapa con el Real Madrid">
+                </div>
+                <div class="card-actions">
+                    <a class="button button-primary" href="index.html">Volver al inicio</a>
+                    <a class="button button-secondary" href="infancia.html">Conocer su historia</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<h2>Goles por Equipos</h2>
-
-<ul style="display:inline-block; text-align:left;">
-    <li>Real Madrid: 450</li>
-    <li>Manchester United: 145</li>
-    <li>Juventus: 101</li>
-    <li>Al-Nassr: 120</li>
-    <li>Selección de Portugal: 143</li>
-</ul>
-
-<h1><img src="imagenes/cr7copa.jpg" width="250"></h1>
-<h3><img src="imagenes/madrid.jpg" width="250"></h3>
-
-<p align="center">
-<a href="index.html">Para volver pulse aqui</a>
-</p>
-<a href="infancia.html">Para conocer su infancia pulse aqui</a>
-
+    <footer class="site-footer">
+        <div class="container">
+            <p>Proyecto web profesional sobre Cristiano Ronaldo · Estadísticas y logros.</p>
+        </div>
+    </footer>
 </body>
 </html>
