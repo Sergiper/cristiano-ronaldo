@@ -1,50 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Cristiano Ronaldo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio profesional sobre Cristiano Ronaldo: biografía, títulos, trayectoria y estadísticas destacadas.">
+    <title>Cristiano Ronaldo | Leyenda del fútbol</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body align="center" bgcolor="lightyellow">
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="logo" href="index.html" aria-label="Inicio Cristiano Ronaldo">
+                <span class="logo-mark">CR7</span>
+                <span>Cristiano Ronaldo</span>
+            </a>
+            <ul class="nav-links">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="infancia.html">Biografía</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-    <h1>Cristiano Ronaldo</h1>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Perfil profesional</p>
+                    <h1>Cristiano Ronaldo, una carrera construida con ambición y excelencia.</h1>
+                    <p class="lead">Explora la historia, los grandes títulos y los números que han convertido a Cristiano Ronaldo en uno de los futbolistas más influyentes de todos los tiempos.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="estadisticas.html">Ver estadísticas</a>
+                        <a class="button button-secondary" href="infancia.html">Conocer biografía</a>
+                    </div>
+                </div>
+                <figure class="feature-image">
+                    <img src="imagenes/manchester.png" alt="Cristiano Ronaldo durante su etapa en Manchester United">
+                    <figcaption class="image-caption">Disciplina, velocidad y mentalidad ganadora.</figcaption>
+                </figure>
+            </div>
+        </section>
 
-    <section>
-        <h2>Títulos</h2>
+        <section class="section" aria-labelledby="perfil-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Datos clave</p>
+                        <h2 id="perfil-title">Perfil del jugador</h2>
+                    </div>
+                    <p>Información esencial presentada con un diseño limpio, moderno y fácil de consultar en cualquier dispositivo.</p>
+                </div>
+                <ul class="profile-list">
+                    <li><strong>Nombre completo</strong><span>Cristiano Ronaldo dos Santos Aveiro</span></li>
+                    <li><strong>Nacimiento</strong><span>5 de febrero de 1985 · Funchal, Madeira</span></li>
+                    <li><strong>Altura</strong><span>1,87 m</span></li>
+                    <li><strong>Posición</strong><span>Delantero</span></li>
+                </ul>
+            </div>
+        </section>
 
-        <img src="imagenes/manchester.png" width="250"><br><br>
+        <section class="section" aria-labelledby="titulos-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Palmarés</p>
+                        <h2 id="titulos-title">Títulos destacados</h2>
+                    </div>
+                    <p>Una selección de los trofeos más importantes conseguidos a nivel de clubes y selección nacional.</p>
+                </div>
+                <div class="card-grid">
+                    <article class="card">
+                        <span class="card-icon">🏆</span>
+                        <h3>Éxito europeo</h3>
+                        <p>Champions League, Mundial de Clubes de la FIFA y noches históricas en los torneos más exigentes.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-icon">⚽</span>
+                        <h3>Ligas nacionales</h3>
+                        <p>Premier League, LaLiga y Serie A forman parte de una trayectoria competitiva en varias élites del fútbol.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-icon">🇵🇹</span>
+                        <h3>Portugal</h3>
+                        <p>Campeón de la Eurocopa y de la Liga de Naciones de la UEFA con la selección portuguesa.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <ul style="display: inline-block; text-align: left;">
-            <li>Premier League (Manchester United)</li>
-            <li>FA Cup (Manchester United)</li>
-            <li>Champions League (Manchester United, Real Madrid)</li>
-            <li>LaLiga (Real Madrid)</li>
-            <li>Serie A (Juventus)</li>
-            <li>Eurocopa (Portugal)</li>
-            <li>Liga de Naciones de la UEFA (Portugal)</li>
-            <li>Mundial de Clubes de la FIFA</li>
-        </ul>
-
-        <h3><font color="purple"><b>Biografia</b></font></h3>
-
-        <p>
-            <font color="pink"><b>
-            Nombre completo: Cristiano Ronaldo dos Santos Aveiro<br>
-            Fecha de nacimiento: 5 de febrero de 1985<br>
-            Lugar de nacimiento: Funchal, Madeira (Portugal)<br>
-            Altura: 1,87 m<br>
-            Posición: Delantero
-            </b></font>
-        </p>
-
-        <p>
-            <a href="estadisticas.html">Para conocer sus estadisticas pulse aqui</a>
-        </p>
-        <p>
-        <a href="infancia.html">Para conocer su infancia pulse aqui</a>
-        </p>
-
-    </section>
-</main>
-
+    <footer class="site-footer">
+        <div class="container">
+            <p>Proyecto web profesional sobre Cristiano Ronaldo · Diseño responsive en HTML y CSS.</p>
+        </div>
+    </footer>
 </body>
 </html>
